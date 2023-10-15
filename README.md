@@ -1,0 +1,1 @@
+<h2>exercícios da aula 3 encontram-se na pasta aula-3-exercicios</h2>
