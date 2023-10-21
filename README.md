@@ -1,1 +1,1 @@
-<h2>exercícios da aula 3 encontram-se na pasta aula-3-exercicios</h2>
+<h2>projeto individual encontra-se na pasta projeto-individual</h2>

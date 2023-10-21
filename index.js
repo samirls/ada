@@ -1,1 +1,1 @@
-//exercícios da aula 3 na pasta aula-3-exercicios
+console.log('hello world')
