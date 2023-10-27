@@ -30,13 +30,15 @@ const clientsLastMonth = [
 ];
 
 function isMonday() {
-  return new Date().getDay() === 1;
+  return new Date().getDay() === 1; //retorna true or false
 }
 
 if (isMonday() === false) {
   console.log("Bem vindo ao programa de enviar emails!")
-  console.log('Como hoje não é segunda, nenhum email será enviado.')
+  console.log('Esta aplicação só envia e-mails na segunda-feira. Como hoje não é segunda, nenhum email será enviado.')
   console.log('Aplicação finalizada.')
+} else{
+  console.log("Bem vindo ao programa de enviar emails!");
 }
 
 function allowedMarketingEmails() {
@@ -53,10 +55,9 @@ let defaultSubject =
 let defaultBody =
   "Olá caro Cliente! Como você visitou a nossa loja recentemente, gostariamos de atualizar sobre novos veículos que chegaram na nossa loja! Temos condições e preços imperdíveis!";
 
-console.log("Bem vindo ao programa de enviar emails!");
 
 function sendEmail() {
-  if (true) {
+  if (isMonday() === true) {
     console.log(
       "Digite 1 para enviar um email padrão para todos os clientes que optaram por receber comunicações de marketing."
     );
@@ -101,6 +102,3 @@ function sendEmail() {
 }
 
 sendEmail();
-
-
-//o que são funções de declaração(hoisted) e funções de expressão (não hoisted)?
